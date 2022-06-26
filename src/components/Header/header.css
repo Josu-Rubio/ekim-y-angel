@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text {
+  background-image: url('../../../public/images/header.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.name {
+  font-size: 5rem;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-around;
+  max-width: 70vw;
+  align-items: center;
+  margin-left: 15rem;
+}
