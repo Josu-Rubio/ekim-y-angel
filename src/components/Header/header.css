@@ -1,6 +1,7 @@
 .header {
   display: flex;
   flex-direction: column;
+  font-family: 'Poppins', Sans-serif;
 }
 
 .main-text {
@@ -11,10 +12,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-size: 1.5rem;
 }
 
 .name {
-  font-size: 5rem;
+  font-size: 7rem;
+  font-family: 'Great Vibes', Sans-serif;
 }
 
 .counter {
@@ -22,5 +25,18 @@
   justify-content: space-around;
   max-width: 70vw;
   align-items: center;
-  margin-left: 15rem;
+  margin-left: 15vw;
+  font-family: 'Poppins', Sans-serif;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  font-size: 2rem;
+  margin: 1rem 0 0 0;
 }

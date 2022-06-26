@@ -1,0 +1,81 @@
+.location {
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem 0;
+  font-family: 'Poppins', Sans-serif;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 35%;
+  padding: 2rem;
+  border: 1px solid pink;
+  border-radius: 2rem;
+  -webkit-box-shadow: 4px 3px 7px 2px rgba(0, 0, 0, 0.39);
+  box-shadow: 4px 3px 7px 2px rgba(0, 0, 0, 0.39);
+  background-color: rgba(252, 222, 227, 0.342);
+}
+
+.logo {
+  height: 3rem;
+}
+
+.title {
+  font-family: 'Dancing Script', Sans-serif;
+  font-size: 3rem;
+}
+
+.desc {
+  letter-spacing: 3px;
+}
+
+.btn {
+  width: 35%;
+  padding: 1rem;
+  border: 1px solid pink;
+  border-radius: 2rem;
+  -webkit-box-shadow: 4px 3px 7px 2px rgba(0, 0, 0, 0.39);
+  box-shadow: 4px 3px 7px 2px rgba(0, 0, 0, 0.39);
+  background-color: white;
+  font: 2em;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: rgb(182, 82, 98);
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(182, 82, 98);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(182, 82, 98);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(182, 82, 98);
+}
+
+a:active {
+  text-decoration: none;
+  color: rgb(182, 82, 98);
+}
+
+.btn:active {
+  transform: translateY(4px);
+}
+
+@media all and (max-width: 800px) {
+  .location {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  .card {
+    width: 70%;
+    margin: 2rem 0;
+  }
+}
