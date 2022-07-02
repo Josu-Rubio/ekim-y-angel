@@ -1,0 +1,59 @@
+.story {
+  margin: 10rem 0 5rem 0;
+  font-family: 'Montserrat', Sans-serif;
+  padding-bottom: 2rem;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.story .title {
+  font-family: 'EB Garamond', Sans-serif;
+  padding-top: 1rem;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: none;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #c09672;
+}
+
+.desc {
+  font-family: 'Montserrat', Sans-serif;
+  letter-spacing: 3px;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.images img {
+  width: 20rem;
+  height: 20rem;
+  margin: 1rem;
+  object-fit: cover;
+}
+
+@media all and (max-width: 800px) {
+  .story {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5rem;
+    letter-spacing: 0.00938em;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .images {
+    flex-direction: column;
+  }
+  .images img {
+    height: 100%;
+    width: 100%;
+  }
+}

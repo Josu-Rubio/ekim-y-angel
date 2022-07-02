@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'marrie_dreamregular';
+    src: url('marrie_dream-webfont.eot');
+    src: url('marrie_dream-webfont.eot?#iefix') format('embedded-opentype'),
+         url('marrie_dream-webfont.woff2') format('woff2'),
+         url('marrie_dream-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

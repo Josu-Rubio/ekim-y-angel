@@ -8,24 +8,31 @@ export default function Header() {
     <div className='header'>
       <div className='main-text'>
         <div className='info'>Nos casamos!</div>
-        <div className='name'>Ekim y Ángel</div>
+        <div className='name'>--1ekim&#x2661;ángel--2</div>
         <div className='info'>Sábado 24 de Septiembre</div>
       </div>
       {days + hours + minutes + seconds <= 0 ? (
         <div>Que nos casamos, señores!</div>
       ) : (
-        <div className='counter'>
-          <div className='time'>
-            <p className='number'>{days}</p> días
-          </div>
-          <div className='time'>
-            <p className='number'>{hours}</p> horas
-          </div>
-          <div className='time'>
-            <p className='number'>{minutes}</p> minutos
-          </div>
-          <div className='time'>
-            <p className='number'>{seconds}</p> segundos
+        <div
+          style={{
+            backgroundColor: 'rgb(192, 150, 114, 0.1)',
+            paddingBottom: '1rem',
+          }}
+        >
+          <div className='counter'>
+            <div className='time'>
+              <p className='number'>{days}</p> días
+            </div>
+            <div className='time'>
+              <p className='number'>{hours}</p> horas
+            </div>
+            <div className='time'>
+              <p className='number'>{minutes}</p> minutos
+            </div>
+            <div className='time'>
+              <p className='number'>{seconds}</p> segundos
+            </div>
           </div>
         </div>
       )}

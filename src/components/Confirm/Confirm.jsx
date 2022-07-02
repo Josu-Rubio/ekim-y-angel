@@ -6,10 +6,7 @@ export default function Confirm() {
     <div className='confirm'>
       <h2 className='title'>Confirmar Asistencia</h2>
       <p className='info'>Confirmar antes del 10 de Agosto</p>
-      <a
-        target='_blank'
-        href='https://docs.google.com/forms/d/e/1FAIpQLSe2DiU2Ddmy6Ck53cR5WKxaFYPu07eBn01F0q_j1TgFXVDOPQ/viewform?usp=sf_link'
-      >
+      <a target='_blank' href='https://forms.gle/HeAR5Sng4RAdYW446'>
         <button class='btn'>Confirmar</button>
       </a>
     </div>

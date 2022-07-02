@@ -12,9 +12,9 @@ function App() {
       <Header />
       <Location />
       <Confirm />
-      {/* <Story />
+      <Story />
       <Music />
-      <Gifts /> */}
+      <Gifts />
     </div>
   );
 }

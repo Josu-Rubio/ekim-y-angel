@@ -1,10 +1,30 @@
+@font-face {
+  font-family: 'marriedream';
+  /* src: url('/public/styles/Marrie\ Dream.ttf'); */
+  src: url('/public/styles/Marrie\ Dream.otf') format('opentype');
+  /* src: url('/font/marrie_dream-webfont.eot');
+  src: url('/font/marrie_dream-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/font/marrie_dream-.woff') format('woff'),
+    url('/font/marrie_dream-webfont.woff2') format('woff2'),
+    url('/font/Marrie\ Dream.ttf') format('truetype'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: 'MyWebFont';
+  src: url('WebFont.eot');
+  src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+    url('WebFont.woff') format('woff'), url('WebFont.ttf') format('truetype'),
+    url('WebFont.svg#webfont') format('svg');
+} */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'marriedream', Sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'swsh';
 }
 body::-webkit-scrollbar {
   display: none;
