@@ -70,8 +70,10 @@
   height: 100vh;
   width: 100vw;
   background-color: rgba(192, 150, 114, 0.356);
-  top: 0;
+
   left: 0;
+  bottom: 0;
+  top: 0;
 }
 .data .card {
   background-color: #fff;
