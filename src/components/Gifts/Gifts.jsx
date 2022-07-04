@@ -16,8 +16,7 @@ export default function Gifts() {
         <div className='title'>Regalo</div>
         <p className='desc'>
           Si quieres, puedes hacernos un regalo para nuestra boda o luna de
-          miel. Hace clic para ver nuestros datos bancarios y hacer una
-          transferencia o un depósito
+          miel.
         </p>
 
         <button className='btn' onClick={handleClick}>
@@ -27,11 +26,9 @@ export default function Gifts() {
       {show === true ? (
         <div className='data' onClick={handleClick}>
           <div className='card' onClick={console.log('nothing')}>
-            <h5>Banco Macro</h5>
-            <h5>Caja de ahorro: XXXXXXXX</h5>
-            <h5>CBU: XXXXXXXXXXX</h5>
-            <h5>Titular: XXXXXXXXX</h5>
-            <h5>CUIT / CUIL: XXXXXXXX</h5>
+            <h2 style={{ fontStyle: 'italic' }}>
+              El mejor regalo es que vengáis a nuestro enlace.
+            </h2>
           </div>
         </div>
       ) : (

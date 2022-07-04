@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   font-family: 'Montserrat', Sans-serif;
+  color: white;
 }
 
 @font-feature-values marriedream {
@@ -18,7 +19,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px black;
+  letter-spacing: 1px;
 }
 
 .name {
@@ -33,6 +37,9 @@
   -webkit-font-feature-settings: 'liga', 'dlig';
   font-feature-settings: 'liga', 'dlig';
   font-variant-alternates: swash(user-defined-ident);
+  color: white;
+  font-weight: normal;
+  -webkit-text-stroke: 0.5px black;
 }
 
 .counter {

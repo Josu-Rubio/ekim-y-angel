@@ -3,7 +3,7 @@ import { useCountdown } from '../../utils/countdown';
 import './header.css';
 
 export default function Header() {
-  const [days, hours, minutes, seconds] = useCountdown(1664013600000);
+  const [days, hours, minutes, seconds] = useCountdown(1664015400000);
   return (
     <div className='header'>
       <div className='main-text'>
@@ -12,7 +12,7 @@ export default function Header() {
         <div className='info'>Sábado 24 de Septiembre</div>
       </div>
       {days + hours + minutes + seconds <= 0 ? (
-        <div>Que nos casamos, señores!</div>
+        ''
       ) : (
         <div
           style={{
