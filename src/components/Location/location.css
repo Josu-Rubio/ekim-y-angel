@@ -6,6 +6,17 @@
   flex-wrap: wrap;
 }
 
+.head-title {
+  font-family: 'EB Garamond', Sans-serif;
+  padding-top: 1rem;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: none;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #c09672;
+}
+
 .card {
   width: 35%;
   padding: 2rem;

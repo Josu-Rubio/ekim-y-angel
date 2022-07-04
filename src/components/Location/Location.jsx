@@ -4,6 +4,7 @@ import './location.css';
 export default function Location() {
   return (
     <div className='location'>
+      <h1 className='head-title'>¡Te esperamos en nuestro enlace!</h1>
       <div className='card'>
         <img className='logo' src='/wedding.svg' alt='wedding' />
         <div className='title'>Ceremonia</div>
